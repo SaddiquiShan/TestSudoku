@@ -17,9 +17,9 @@ public class BasisControleStructuur {
     public static void main(String[] args) {
        
         int[] rij = new int[]{1,6,4,2,3,5,7,8,9};
-        //System.out.println(checkRow(rij));
+        System.out.println(checkRow(rij));
         int[] rij2 = new int[]{1,6,4,2,6,5,7,8,9};
-        //System.out.println(checkRow(rij2));
+        System.out.println(checkRow(rij2));
         
         int[] rij3 = new int[]{1,6,8,41,9,5,-2};
         System.out.println(smallest(rij3));
